@@ -1,0 +1,188 @@
+*{
+    font-size: 24px;
+    line-height: 1.5;
+    /* border: 1px solid black; */
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-size: 24px;
+    line-height: 1.5;
+    /* border: 1px solid black; */
+}
+
+.containet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 958px;
+}
+.work-containet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+
+.h2-fz{
+    font-size: 100px;
+}
+
+.p-fz{
+    font-size: 30px;
+}
+.text-color{
+    color: aliceblue;
+}
+.subTitle{
+    margin-right: 220px;
+    padding-bottom: 0px;
+}
+.name{
+    font-size: 60px;
+    margin: 0;
+    margin-right: 40px;
+}
+
+ .title{
+    font-size: 64px;
+    padding-top: 64px;
+} 
+
+.text-whiter{
+    color: white;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.mb-line{
+   border-bottom: 1px solid black;
+}
+
+.m-interval{
+    margin: auto
+}
+.text-mt10{
+    margin-top: 10px;
+}
+.mb-56{
+    margin-bottom: 56px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+
+
+.mt-20{
+    margin-top: 20px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.color{
+    color: aliceblue;
+}
+
+.b-color{
+    background-color: #000000;
+    color: #fff;
+    height: 1407px;
+}
+
+.f-color{
+    background-color: #000000;
+    color: #fff;
+    height: 500px;
+    
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:  500px;
+
+
+}
+
+.h{
+    height: 200px;
+}
+.aboutMe{
+    list-style: none;
+}
+
+.border-line{
+    border: 2px white solid;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-list{
+    background-image: url(/htmlcssUpdate/切版直播班/第二周作業/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 958px;
+}
+
+.work-list{
+    background-image: url(/htmlcssUpdate/切版直播班/第二周作業/img/photo-1561291386-5be50364cfb5.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1558px;
+
+}
+
+
+.bg-cover{
+    /* 圖片位置置中 */
+    background-position: center center;
+    
+    /* 圖片不重複 */
+    background-repeat: no-repeat;
+
+    /* 圖片覆蓋整個區塊 */
+    background-size: cover;
+
+}
+
+.work-list-item:first-child{
+    margin-top: -80px;
+}
+
+.post{
+    transform: translateY(0px);
+    transition: .5s;
+}
+.post:hover{
+    transform: translateY(-50px);
+}
