@@ -1,0 +1,69 @@
+*{
+    border: 1px solid black;
+    width: 1080px;
+    height: 1920px;
+}
+body{
+    font-size: 24px;
+    line-height: 36;
+    /* border: 1px solid black; */
+}
+h1{
+    font-size: 80px;
+    line-height: 94px;
+}
+.title{
+    font-size: 64px;
+    line-height: 75px;
+    padding-top: 64px;
+}
+
+.text-p{
+font-size: 20px;
+line-height: 42px;
+}
+.text-whiter{
+    color: white;
+}
+.mb-56{
+    margin-bottom: 56px;
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-list{
+    background-image: url(/week2/img/photo-1561291386-5be50364cfb5.png) ;
+}
+
+.bg-cover{
+    /* 圖片位置置中 */
+    background-position: center center;
+    
+    /* 圖片不重複 */
+    background-repeat: no-repeat;
+
+    /* 圖片覆蓋整個區塊 */
+    background-size: cover;
+
+}
+
+.work-list-item:first-child{
+    margin-top: -80px;
+}
+
