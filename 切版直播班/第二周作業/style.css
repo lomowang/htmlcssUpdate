@@ -26,6 +26,11 @@ body{
     height: 500px;
 }
 
+.jc{
+    justify-content: center;
+    align-items: center;
+}
+
 
 .h2-fz{
     font-size: 100px;
