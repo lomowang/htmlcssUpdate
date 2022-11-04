@@ -2,6 +2,7 @@
     margin: 0;
     /* padding: 0; */
     list-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .d-flx0{
@@ -19,14 +20,53 @@
     align-items: center;
 }
 
+.d-flexsa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .d-flxend{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items:flex-end;
     height: 100%;
+    width: 100%;
+  
 }
+
+
+.d-flxetest{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    /* height: 100%; */
+    /* width: 50; */
+  
+}
+
+
+.d-flxend2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    height: 100%;
+    /* width: 100%; */
+  
+}
+.d-flex{
+    display: flex;
+}
+
+.d-flexbox{
+    display: flexbox;
+}
+
 
 
 .jcsa{
@@ -43,13 +83,30 @@
     color: #650300;
 }
 
+
+.ghostwhite-color{
+    color: rgb(141, 141, 150);
+}
+
 .bgc{
     background-color: #AA0601;
 }
 
 .bgc2{
     background-color: #FBF2F2;
-    height: 488px;
+    height: 480px
+}
+
+
+.bgc3{
+    background-color: #fff;
+ 
+}
+
+
+.bgc4{
+    background-color: #FBF2F2;
+    height: 900px
 }
 
 .bgci{
@@ -61,6 +118,17 @@
 .p48{
     margin: 49px;
 }
+
+.mg20{
+    margin: 20px;
+}
+
+
+
+.m-right{
+    margin-right: 50%;
+}
+
 
 .pt1{
     padding: 10px;
@@ -74,6 +142,10 @@
     padding: 40px;
 }
 
+.pt4{
+    padding-bottom:  50px;
+}
+
 .pr1{
     padding-right: 200px;
 }
@@ -81,12 +153,68 @@
     padding-bottom: 10px;
 }
 
+.pb3{
+    padding-bottom: 100px;
+}
+
+.pt1{
+    padding-top: 20px;
+}
+
+.pL1{
+    padding-left: 100px;
+}
 .ai{
     align-items: center;
 }
 
+.box{
+    width: 30%;
+    height: 30px;
+}
 
 
+.box2{
+    width: 30%;
+    height: 200px;
+}
+
+.box3{
+    height: 922px;
+}
+
+.box4{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items:center; */
+    width: 10%;
+    color: #fff;
+
+}
+
+
+.height{
+    height: 300px;
+}
+
+.word{
+    display: flex;
+    justify-content: start;
+    width: 30%
+
+}
+
+.left{
+    margin-left: -10%;
+}
+.left2{
+    text-align: left;
+}
+
+.right{
+    right: 50%;
+}
 /* 字體間具 */
 
 .lineHeight{
@@ -94,8 +222,17 @@
 }
 
 .lineHeight2{
+    line-height: 4;
+}
+
+.lineHeight3{
     line-height: 2;
 }
+
+
+
+
+
 
 /* 字體照片大小 */
 
@@ -114,6 +251,27 @@
     height: 100px;
 }
 
+.img-size2{
+    width: 100px;
+    height: 50px;
+}
+
+
+.border{
+    /* border: 1px gray solid; */
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px 20px  0px 0px
+}
+
+/* 字體變粗 */
+
+.bold{
+    font-weight: bold;
+}
+
+.bolder{
+    font-weight: bolder;
+}
 
 /* 放照片 */
 
@@ -127,3 +285,23 @@
 }
 
 
+.newarrivals{
+    background-image: url(/htmlcssUpdate/切版直播班/第三周RWD/img/index-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 200px;
+}
+
+
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    width: 20%;
+    padding-top: 20px;
+    color: white;
+}
