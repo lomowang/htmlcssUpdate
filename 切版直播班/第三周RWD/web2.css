@@ -1,0 +1,176 @@
+*{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* max-width: 1320px; */
+}
+
+
+/* banner */
+
+.banner{
+    /* max-width: 1320px; */
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #AA0601;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.glassicon{
+    width: 40%;
+}
+.subnav{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+
+/* nav */
+
+.nav ul{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-evenly ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.nav-border{
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.nav .proBanner{
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    height: 296px;
+
+}
+    
+.nav .glass-left{
+    /* background-image: url(../第三周RWD/img/product-header-1.png); */
+    background: url(../第三周RWD/img/product-header-1.png)no-repeat center center;
+    background-size: cover;
+    width: 50%;
+}
+
+.nav .glass-right{
+    background: url(../第三周RWD/img/product-header-2.png)no-repeat center center;
+    background-size: cover;
+    width: 50%;
+}
+
+.glass-product {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+    text-align: center;
+}
+
+
+
+.proList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+.product-item{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+    margin-bottom: 80px;
+}
+.col-3{
+    width: 25%;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info{
+    font-size: 24px;
+    line-height: 36px;
+}
+.block{
+    display: flex;
+}
+
+.blown{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #5f3e2d;
+    margin-right: 8px;
+}
+
+
+.blown2{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #B75929;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages{   
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    /* border: 1px solid black; */
+}
+
+.pagination ul li{
+    display: block;
+    border: 1px solid #555;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+.pagination ul li:hover{
+    background-color: black;
+    color: #F2F2F2;
+}
+
+.work-list{
+    background-color: #AA0601;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-nav{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-icon {
+    display: flex;
+    width: 5%;
+}
+
+.footer-icon li{
+    width: 30px;
+}
