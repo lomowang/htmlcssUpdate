@@ -2,7 +2,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 .banner{
@@ -45,11 +45,61 @@
 .h3{
     display: flex;
     flex-direction: row;
+    align-items:flex-end;
     /* justify-content: flex-end; */
     font-size: 30px;
-    /* padding-left: 20%; */
+    padding-left: 20%;
 }
 .h2{
     font-size: 60px;
 }
 
+.contain{
+    display:flex;
+}
+.classbgc{
+    display: flex;
+    flex-direction: column;
+}
+
+.classsList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.classname{
+   margin: auto;
+}
+
+.headerClass{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.ClassPic{
+    display: flex;
+    flex-direction: row
+}
+.produceList{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* 調整文章使用的 */
+
+
+.shopTitle{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.produceTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
