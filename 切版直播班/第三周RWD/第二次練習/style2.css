@@ -1,0 +1,105 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.glassicon{
+    width: 50px;
+    height: 50px;
+
+}
+
+.producs{
+    display: flex;
+    align-items: center;
+}
+
+
+.classimg{
+    background-image:url(/htmlcssUpdate/切版直播班/第三周RWD/img/home-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 200px;
+}
+
+.producstext{
+ /* display: flex; */
+ /* flex-direction: column; */
+ margin-top: 20%;
+ margin-left: 50%;
+}
+
+
+.h3{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    /* justify-content: flex-end; */
+    font-size: 30px;
+    padding-left: 20%;
+}
+.h2{
+    font-size: 60px;
+}
+
+.contain{
+    display:flex;
+}
+.classbgc{
+    display: flex;
+    flex-direction: column;
+}
+
+.classsList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.classname{
+   margin: auto;
+}
+
+.headerClass{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.ClassPic{
+    display: flex;
+    flex-direction: row
+}
+.produceList{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* 調整文章使用的 */
+
+
+.shopTitle{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.produceTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
